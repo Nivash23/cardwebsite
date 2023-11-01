@@ -9,6 +9,7 @@ import '../components/Datascience'
 
 
 function Card(props) {
+  const more='>>'
   return (
     <div className="card text-center">
       <div className="overflow">
@@ -16,9 +17,10 @@ function Card(props) {
       </div>
       <div className='card-body-text'>
         <h4 className="card-title">{props.title }</h4>
-        <p className='card-text text-secondary'>this is a example card</p>
-      <a href='#' className='btn btn-outline-success'>Click</a>
+        <p className='card-text text-secondary'>{props.description }</p>
+        <a id='read' href={props.url } >Read more{more} </a>
       </div>
+
 
    </div>
       
