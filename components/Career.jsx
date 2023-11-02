@@ -9,18 +9,18 @@ function Career() {
   return (
     <div className='container-fluid d-flex justify-content-start'>
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-md-4">
           <Card title='Product-based Company Vs Service-based Company: Which is Best Choice?' description='Deciding between joining a product-based company vs a service-based company can be pretty challenging when'  image={career } />
         </div>
-        <div className="col-md-3">
+        <div className="col-md-4">
           <Card title='Best Product-based Companies for Motion Graphic Designing in 2023' description='Motion graphic designers are the unsung heroes of any company as their designs, and animations' image={career1} />
         </div>
-        <div className="col-md-3">
+        <div className="col-md-4">
           <Card title='Top Product-Based Companies for Cloud Engineers 2023' description='In the fast-paced world of technology, cloud engineers are in high demand, driving innovation and
 
 ' image={career2} />
         </div>
-        <div className="col-md-3">
+        <div className="col-md-4">
           <Card title='6 Mechanical Engineering Webinars and Workshops That You Should Know' description='Mechanical engineering is an exciting field that brings creative ideas to life, be it small' image={career3} />
         </div>
       </div>
