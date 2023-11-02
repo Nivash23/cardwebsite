@@ -8,7 +8,7 @@ import f3 from '../components/images/full-stack3.png'
 
 function Fullstack() {
   return (
-    <div className='container-fluid d-flex justify-content-start'>
+    <div className='fullstack'>
       <div className="row">
         <div className="col-md-4">
           <Card title='The Ultimate Guide to Real-World Full-Stack Development Applications' url='https://www.guvi.in/blog/top-must-know-full-stack-development-applications/' description='Full-stack development has become increasingly popular in recent years, with companies seeking professionals who can' image={f} />

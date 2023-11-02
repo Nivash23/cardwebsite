@@ -7,7 +7,7 @@ import career3 from './images/career3.jpeg'
 
 function Career() {
   return (
-    <div className='container-fluid d-flex justify-content-start'>
+    <div className='career'>
       <div className="row">
         <div className="col-md-4">
           <Card title='Product-based Company Vs Service-based Company: Which is Best Choice?' description='Deciding between joining a product-based company vs a service-based company can be pretty challenging when'  image={career } />

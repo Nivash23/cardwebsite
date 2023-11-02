@@ -7,7 +7,7 @@ import c3 from './images/c3.jpg'
 
 function Cyber() {
   return (
-    <div className='container-fluid d-flex justify-content-start'>
+    <div className='cyber'>
       <div className="row">
         <div className="col-md-4">
           <Card title='What Is Hacking? Types of Hacking & More' image={cyber} description='Have you ever wondered what hacking is all about? It’s a big deal in today’s' url='https://www.guvi.in/blog/what-is-hacking/' />

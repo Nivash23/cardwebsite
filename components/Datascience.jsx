@@ -7,7 +7,7 @@ import d3 from '../components/images/datascience3.webp'
 
 function Datascience() {
   return (
-    <div className='container-fluid d-flex justify-content-start'>
+    <div className='datasc'>
       <div className="row">
         <div className="col-md-4">
           <Card title='10 Best Data Science Frameworks in 2023' url='https://www.guvi.in/blog/10-best-data-science-frameworks/' description='Does data scientists fascinate you? If yes, you must definitely know about data science frameworks.' image={d} />

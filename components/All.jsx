@@ -7,7 +7,7 @@ import a3 from '../components/images/datascience.webp'
 
 function All() {
   return (
-    <div className='container-fluid d-flex justify-content-start'>
+    <div className='all'>
       <div className="row">
         <div className="col-md-4">
           <Card title='The Impact of Remote Work in Hiring Tech Professionals' url='https://www.guvi.in/blog/impact-of-remote-work-in-hiring-tech-professional/' description='In a fast-paced business landscape, the conventional methods of recruitment have blemished. Remote hiring has' image={a} />

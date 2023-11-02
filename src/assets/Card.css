@@ -18,3 +18,21 @@ body{
     color:rgb(65, 220, 65);
     cursor: pointer;
 }
+@media (max-width:500px)
+{
+    .datasc{
+        display:flex;
+    }
+    .fullstack{
+        display:flex;
+    }
+    .cyber{
+        display:flex;
+    }
+    .career{
+        display:flex;
+    }
+    .all{
+        display:flex;
+    }
+}
